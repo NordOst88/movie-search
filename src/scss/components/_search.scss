@@ -1,0 +1,29 @@
+.search {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    &-input {
+        width: 70%;
+        vertical-align: middle;
+        padding: 10px 10px 10px 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+    &-btn {
+        height: 46px;
+        width: 100px;
+        color:#fff;
+        background: #007aff;
+        border-radius: 5px;
+    }
+}
+.form {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.fa-search + input {
+    padding-left: 30px;
+}

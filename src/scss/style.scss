@@ -1,0 +1,53 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './components/font-awesome';
+@import './components/search';
+@import './components/swiper';
+@import './components/spinner';
+@import './components/card';
+.header {
+    height: 90px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    background-image: url('/img/bg-image.jpg');
+    &>h1 {
+        margin: auto;
+    }
+}
+.footer {
+    height: 45px;
+    background-image: url('/img/bg-image.jpg');
+    background-position: center;
+    color: #FFF;
+    display: flex;
+    justify-content: left;
+    &>h6 {
+        margin: auto;
+    }
+}
+.main {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 40px;
+    min-height: calc(100vh - 135px);
+}
+.alerts {
+    text-align: center;
+    height: 40px;
+    color:red;
+    font-size: 24px;
+}
+.hidden {
+    visibility: hidden;
+}
+@media (max-width: 576px) {
+    .search-input {
+        width: 100%;
+    }
+    .search {
+        padding-top: 5px;
+    }
+    .alerts {
+        font-size: 16px;
+    }
+}

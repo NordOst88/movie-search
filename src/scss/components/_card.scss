@@ -1,0 +1,27 @@
+.card {
+    font-weight: 700;
+    box-shadow: inset 0px 0px 5px 0 rgba(0,123,255,.25);
+    &-title {
+        font-weight: 700;
+        height: 40px;
+        margin-bottom: 0;
+        line-height: 36px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 200px;
+    }
+    &-image {
+        height: 330px;
+        width: 200px;
+        background-size: cover;
+    }
+    &-year {
+        width: 200px;
+        height: 30px;
+        line-height: 38px;
+    }
+    &-rating {
+        height: 30px;
+    }
+}

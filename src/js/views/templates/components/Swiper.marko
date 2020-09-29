@@ -1,0 +1,19 @@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <for|name| of=input>
+          <div class="swiper-slide">
+            <div.card>
+              <div.card-title>
+                <a href=`https://www.imdb.com/title/${name.imdbID}/videogallery/`>${name.Title}</a>
+              </div>
+              <div.card-image style=`background-image: url(${name.Poster});`></div>
+              <div.card-year>${name.Year}</div>
+              <div.card-rating><i class="fa fa-star-o" aria-hidden="true"></i>${name.rating}</div>
+            </div>
+          </div>
+        </for>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
